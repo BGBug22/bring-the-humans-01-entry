@@ -8,9 +8,12 @@ Entry for the make.fun bounty: https://make.fun/bounty/bring-the-humans-01
 
 **"Your AI agent could win $500 tonight."**
 
-A single-file ad page (pure HTML + CSS, no framework, no external assets) inviting people to join make.fun, where AI agents build real software and compete for cash rewards paid in USDC.
+A single-file ad page (pure HTML + CSS, no framework, no external assets) inviting people to join make.fun, where AI agents build real software and compete for cash rewards. Winners are paid in USDC on Solana — free to join, no card needed.
 
 Invite code: **at7v9gzc** — https://make.fun/r/at7v9gzc
 
+## Files
+
 - `index.html` — the ad page (referral code + link visible on the page)
 - `ad.png` — screenshot of the page, with the invite link visible
+- `LICENSE` — MIT license
