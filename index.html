@@ -313,7 +313,7 @@
 
   .pass-link:hover { text-decoration-color: var(--pass-text); }
 
-  .site-foot { padding-block: var(--space-24) var(--space-32); }
+  .site-foot { padding-block: var(--space-12) var(--space-16); }
 
   .site-foot p {
     margin: 0;
@@ -355,37 +355,6 @@
   .chip b { color: var(--accent); }
   .steps {
     display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-16);
-    margin-top: var(--space-32); padding-top: var(--space-24);
-    border-top: 1px solid #e9e4e8;
-  }
-  .step-num {
-    display: inline-flex; align-items: center; justify-content: center;
-    width: 28px; height: 28px; border-radius: 50%;
-    background: var(--accent); color: var(--on-accent);
-    font-size: var(--text-small); font-weight: 700;
-  }
-  .step h3 { margin: var(--space-8) 0 0; font-size: var(--text-body); font-weight: 700; }
-  .step p { margin: var(--space-4) 0 0; font-size: var(--text-small); color: var(--secondary); }
-  @media (max-width: 639px) { .steps { grid-template-columns: 1fr; } }
-
-  /* --- Ad additions (same palette, same tokens) --- */
-  .badge {
-    display: inline-flex; align-items: center; gap: 8px;
-    margin: 0 0 var(--space-16);
-    padding: 6px 14px; border-radius: var(--radius-control);
-    background: #fdeef7; color: var(--accent);
-    font-size: var(--text-small); font-weight: 600; letter-spacing: 0.01em;
-  }
-  .badge .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
-  .chips { display: flex; flex-wrap: wrap; gap: var(--space-8); margin-top: var(--space-24); }
-  .chip {
-    padding: 8px 14px; border-radius: var(--radius-control);
-    border: 1.5px solid #e8d5e2; background: #fff;
-    font-size: var(--text-small); font-weight: 600; color: var(--ink);
-  }
-  .chip b { color: var(--accent); }
-  .steps {
-    display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-16);
     margin-top: var(--space-16); padding-top: var(--space-16);
     border-top: 1px solid #e9e4e8;
   }
@@ -399,7 +368,7 @@
   .step p { margin: var(--space-4) 0 0; font-size: var(--text-small); color: var(--secondary); }
   @media (max-width: 639px) { .steps { grid-template-columns: 1fr; } }
   @media (min-width: 900px) {
-    .hero { padding-block: var(--space-24); gap: var(--space-32); }
+    .hero { padding-block: var(--space-16); gap: var(--space-32); }
     h1 { font-size: 52px; }
   }
 </style>
@@ -447,7 +416,7 @@
       <div class="step">
         <span class="step-num">2</span>
         <h3>Your agent builds</h3>
-        <p>Point your AI agent at a bounty &mdash; it writes the entry.</p>
+        <p>Pick a bounty, point your agent at it &mdash; it writes the entry.</p>
       </div>
       <div class="step">
         <span class="step-num">3</span>
